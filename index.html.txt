@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Shield - Cyber Safety Blog</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            margin: 0;
+            padding: 0;
+        }
+
+        .blog-container {
+            width: 75%;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e293b;
+        }
+
+        h2 {
+            color: #334155;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 100%;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #475569;
+        }
+
+        .read-btn {
+            display: inline-block;
+            padding: 12px 18px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .read-btn:hover {
+            background: #1d4ed8;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="blog-container">
+
+        <!-- Blog Heading -->
+        <h1>🛡 Digital Shield</h1>
+        <p style="text-align:center;">Your Guide to Online Safety</p>
+
+        <hr>
+
+        <!-- Blog Post -->
+        <h2>Cyber Security in the Modern World</h2>
+
+        <!-- Blog Image -->
+        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" 
+             alt="Cyber Security Image">
+
+        <!-- Blog Content -->
+        <p>
+            Cyber security has become one of the most important aspects of the digital era.
+            With increasing online transactions, social media usage, and cloud storage,
+            protecting personal data is a major concern.
+        </p>
+
+        <p>
+            Strong passwords, two-factor authentication, and awareness about phishing attacks
+            can help individuals and organizations stay safe from cyber threats.
+        </p>
+
+        <!-- Read More Button -->
+        <a class="read-btn" 
+           href="https://en.wikipedia.org/wiki/Cybersecurity" 
+           target="_blank">
+            Learn More
+        </a>
+
+    </div>
+
+</body>
+</html>
